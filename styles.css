@@ -56,6 +56,7 @@ nav a:hover {
 }
 
 
+
 .profile-image {
     width: 150px;
     height: 150px;
@@ -118,6 +119,29 @@ button:hover {
     transform: scale(1.1);
 }
 
+
+.resume-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.resume-button {
+    display: inline-block; /* Ensures visibility */
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.3s;
+    border: 2px solid #ff758c; /* Add border for visibility */
+    font-size: 16px;
+}
+
+.resume-button:hover {
+    background: linear-gradient(135deg, #d75978, #e36b92);
+    transform: scale(1.1);
+}
 
 @media screen and (max-width: 768px) {
     
